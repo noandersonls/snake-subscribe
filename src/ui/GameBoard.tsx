@@ -1,4 +1,4 @@
-import type { FC } from 'react';
+import type { FC, ReactNode } from 'react';
 import type { BoardSize, Position } from '../game/types';
 import { keyOf } from '../game/utils';
 
@@ -10,7 +10,7 @@ type Props = {
 
 export const GameBoard: FC<Props> = ({ board, snake, food }) => {
   const occupied = new Set(snake.map(p => keyOf(p.x, p.y)));
-  const cells: React.ReactNode[] = [];
+  const cells: ReactNode[] = [];
   for (let y = 0; y < board.h; y++) {
     for (let x = 0; x < board.w; x++) {
       const k = keyOf(x, y);
