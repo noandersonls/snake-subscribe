@@ -9,7 +9,7 @@ Built with React 18, TypeScript, and Tailwind CSS.
 
 ---
 
-## 🎮 Gameplay Overview
+## Gameplay Overview
 
 - **Movement**: Snake moves automatically every tick (default `180ms`).
 - **Controls**: Arrow keys change direction; direction applies on the **next tick**.
@@ -28,7 +28,7 @@ Built with React 18, TypeScript, and Tailwind CSS.
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - **React 18+** with functional components & hooks
 - **TypeScript** (strict mode)
@@ -40,7 +40,16 @@ Built with React 18, TypeScript, and Tailwind CSS.
 
 ---
 
-## 📂 Project Structure
+**Docs quick tour**
+
+- [Architecture](./docs/ARCHITECTURE.md)
+- [Testing Strategy](./docs/TESTING.md)
+- [Decisions (ADRs)](./docs/ADRS.md)
+- [Deployment](./docs/DEPLOYMENT.md)
+
+---
+
+## Project Structure
 
 ```bash
 .
@@ -92,7 +101,7 @@ Built with React 18, TypeScript, and Tailwind CSS.
 - **Hooks** (`/hooks`) manage side effects (timer, keyboard).
 - **UI** (`/ui`) is dumb/pure: render grid, score, and controls.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
