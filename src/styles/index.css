@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -8,3 +8,6 @@
   --snake: #22c55e;
   --food: #3b82f6;
 }
+  
+// OLD TAILWIND CONFIG MISMATCH - TO REMOVE/REFACTOR future
+*/

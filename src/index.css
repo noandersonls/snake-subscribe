@@ -13,6 +13,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* :root {
+    --board-bg: #0b0f14;
+    --cell-border: #1f2937;
+    --snake: #22c55e;
+    --food: #3b82f6;
+  } */
 }
 
 a {

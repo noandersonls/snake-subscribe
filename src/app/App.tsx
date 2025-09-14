@@ -7,6 +7,8 @@ import { pause, reset, resume, setNextDir, start, tickAction } from '../state/ac
 import { useGameLoop } from '../hooks/useGameLoop';
 import { useKeyboard } from '../hooks/useKeyboard';
 
+import subscribeLogo from '../assets/subscribe.svg';
+
 export default function App() {
   const initial = useMemo(() => createInitialState(), []);
   const [state, dispatch] = useReducer(createReducer(initial), initial);
@@ -21,9 +23,12 @@ export default function App() {
   );
 
   return (
-    <main className="min-h-dvh bg-slate-900 text-slate-100 grid place-items-center p-6">
+    <main className="min-h-dvh bg-slate-950 text-slate-100 grid place-items-center p-6">
       <div className="w-full max-w-xl">
-        <h1 className="text-3xl font-bold text-center mb-2">SUBSCRIBE Snake</h1>
+        <div className="flex flex-col items-center mb-2">
+          <img src={subscribeLogo} alt="SUBSCRIBE logo" className="h-12 mb-2" />
+          <h1 className="text-3xl font-bold text-center">SUBSCRIBE Snake</h1>
+        </div>
         <Score score={state.score} />
 
         <div className="flex items-center justify-center mb-4 gap-2">

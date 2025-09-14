@@ -38,6 +38,7 @@ Built with React 18, TypeScript, and Tailwind CSS.
 
 ## 📂 Project Structure
 
+```bash
 .
 ├── README.md
 ├── eslint.config.js
@@ -80,6 +81,7 @@ Built with React 18, TypeScript, and Tailwind CSS.
 └── vite.config.ts
 
 10 directories, 30 files
+```
 
 - **Pure logic** lives in `/game` and is tested in isolation.
 - **Reducer** (`/state`) funnels all changes through typed actions → deterministic & testable.
