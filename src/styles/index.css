@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --board-bg: #0b0f14;
+  --cell-border: #1f2937;
+  --snake: #22c55e;
+  --food: #3b82f6;
+}
