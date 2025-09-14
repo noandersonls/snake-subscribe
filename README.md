@@ -3,6 +3,10 @@
 A fully playable, browser-based implementation of the classic Snake game.  
 Built with React 18, TypeScript, and Tailwind CSS.
 
+## Deployed to GitHub Pages in
+
+[GitHub Pages - SUBSCRIBE Snake Game](https://noandersonls.github.io/snake-subscribe/)
+
 ---
 
 ## 🎮 Gameplay Overview
